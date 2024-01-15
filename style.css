@@ -21,14 +21,14 @@
 .navbar {
     position: fixed;
     width: 100%;
-    padding: 25px 0;
+    padding: 20px 0;
     font-family: 'Montserrat', sans-serif;
-    background: turquoise;
+    background: #1c1c24;
     z-index: 1;
 }
 
 .navbar.sticky{
-    padding: 25px 0;
+    padding: 20px 0;
     background: tomato;
 }
 
@@ -64,8 +64,9 @@
     transition: all 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: blue;
+    color: tomato;
 }
+
 
 /* Menu button*/
 .menu-btn{
@@ -80,7 +81,7 @@
     display: flex;
     background: url("images/banner.jpg") no-repeat center;
     height: 350vh;
-    color: red;
+    color: whitesmoke;
     min-height: 500px;
     max-height: 720px;
     background-size: cover;
@@ -172,7 +173,7 @@ section{
 /* Style for Services Section */
 .services {
     color: black;
-    background: turquoise;
+    background: #1c1c24;
 }
 
 .services .title{
@@ -283,6 +284,13 @@ section{
 .skills .skills-content a:hover{
     color: white;
     background: turquoise;
+}
+
+.skills .skills-content .right {
+    background: whitesmoke;
+    padding: 40px 30px 30px 40px;
+    box-shadow: 3px 3px 3px #1c1c24;
+    border-radius: 20px;
 }
 
 .skills .skills-content .right .bar{
